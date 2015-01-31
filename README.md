@@ -6,14 +6,15 @@ I'm just learning! These are some notes on my progress, this is not a how-to.
 
 Build a [Material Design][material-design] CSS theme for [BEMO][bemo]
 
-* I like the [Material Design CSS project](http://materializecss.com/)
+* I like [Google Material Design][material-design] and the css porting made by [Material Design CSS project][materializecss] 
 * I love [BEMO](https://github.com/cantierecreativo/bemo) as [Sass][sass] bootstrap (filesystem structure and [BEM][bem] naming convention)
-* I don't like the way [MD][material-design] classes are written.
+* I don't like the [MDcss][materializecss] css architecture and the way they named classes.
 
 [bemo]: https://github.com/cantierecreativo/bemo
 [sass]: http://sass-lang.com/
 [bem]: https://bem.info/
 [material-design]: http://www.google.com/design/spec/material-design/introduction.html
+[materializecss]: http://materializecss.com/
 
 # Why a theme
 
