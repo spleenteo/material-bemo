@@ -16,6 +16,6 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 gem 'sass'
 gem "sass-globbing"
 gem "slim"
-
+gem 'bourbon'
 gem 'rails-assets-normalize-scss'
 
