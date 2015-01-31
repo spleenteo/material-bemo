@@ -1,22 +1,27 @@
 # How to build a BEMO theme?
 
-I'm just leraning! Here some notes on my progress, this is not an how-to
+I'm just learning! These are some notes on my progress, this is not a how-to.
 
 # Goal
 
-Build a Material Design CSS theme for BEMO
+Build a [Material Design][material-design] CSS theme for [BEMO][bemo]
 
-* I like Material [Design CSS project](http://materializecss.com/)
-* I love [BEMO](https://github.com/cantierecreativo/bemo) as sass bootsrap (filesystem structure and BEM naming convention)
-* I dont't like the way MD classes are written
+* I like the [Material Design CSS project](http://materializecss.com/)
+* I love BEMO as [Sass][sass] bootstrap (filesystem structure and [BEM][bem] naming convention)
+* I don't like the way [MD][material-design] classes are written.
+
+[bemo]: https://github.com/cantierecreativo/bemo
+[sass]: http://sass-lang.com/
+[bem]: https://bem.info/
+[material-design]: http://www.google.com/design/spec/material-design/introduction.html
 
 # Why a theme
 
-BEMO is growing up. I don't want to split the project. A theme should permit to update BEMO behind the scene.
+BEMO is growing up. I don't want to split the project. A theme should permit updating BEMO behind the scenes.
 
-# Possible troubles
+# Possible problems
 
-* BEMO is not build to support themes.
+* BEMO is not built to support themes.
 * MD uses lot of JS scripts: are they linked to class names?
 * If I'll be good enough to build the theme, how can it be install next to the standard BEMO?
 * I would like to use BEMO's variables / mixins etc. and override my stuff only. Override attributes could be a pain in many cases...  
