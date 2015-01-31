@@ -13,10 +13,10 @@ title: Welcome to Middleman
   h2.gamma Buttons
 
   .button button
-  .button--notice .button--notice
-  .button--alert .button--alert
-  .button--large .button--large
-  .button--alert.button--large .button--large.button--alert
+  .button--notice notice
+  .button--alert alert
+  .button--large large
+  .button--alert.button--large large alert
   .button
     ' with icon
     .icon--mail
@@ -25,13 +25,20 @@ title: Welcome to Middleman
   .button
     .icon--arrow-right
 
-  .button--small .button--small
-  .button--flat .button--flat
+  .button--small small
+  .button--flat flat
+  .button.button--disabled disabled
 
-  .button--expand .button--expanded
+  .button--expand expanded
 
   h2.gamma Floating button
 
+  .button--floating
+    .icon--hamburger
+
   .button--floating.button--large
+    .icon--hamburger
+
+  .button--floating.button--large.button--disabled
     .icon--hamburger
 
