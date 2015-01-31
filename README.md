@@ -41,6 +41,6 @@ I'm going to write down my progress. Good or bad, it doesn't matter!
 * ho dovuto creare un file base per il tema
 * ho dovuto fare degli import in applicatino sass in punti differenti. questo vorrei cambiarlo ma dubito si possa.
 * ho finito i bottoni e finora il alvorod i override non ha dato alcun problema.
-* 
+* ho fatto funzionare un js delle card. Tutte le calssi e il sistema di selector va rivisto. ho usato la convezione io .js-nome per usare 
 
 
