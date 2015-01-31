@@ -7,7 +7,7 @@ I'm just learning! These are some notes on my progress, this is not a how-to.
 Build a [Material Design][material-design] CSS theme for [BEMO][bemo]
 
 * I like the [Material Design CSS project](http://materializecss.com/)
-* I love BEMO as [Sass][sass] bootstrap (filesystem structure and [BEM][bem] naming convention)
+* I love [BEMO](https://github.com/cantierecreativo/bemo) as [Sass][sass] bootstrap (filesystem structure and [BEM][bem] naming convention)
 * I don't like the way [MD][material-design] classes are written.
 
 [bemo]: https://github.com/cantierecreativo/bemo
