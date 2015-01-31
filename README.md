@@ -2,6 +2,8 @@
 
 I'm just learning! These are some notes on my progress, this is not a how-to.
 
+[Take a look to the the work in progress](http://spleenteo.github.io/test-material-bemo/)
+
 # Goal
 
 Build a [Material Design][material-design] CSS theme for [BEMO][bemo]
