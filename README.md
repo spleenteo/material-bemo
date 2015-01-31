@@ -52,5 +52,5 @@ I'm going to write down my progress. Good or bad, it doesn't matter!
 * Footer component is done: they says they use flexbox for positioning but I can't find anything about that... wired.
 * I'm thinking that maybe, the usage of classes to set elements color and float position is not so bad... OMG! It might be the fever...
 * BOURBON: I tryed to avoid it but there are tons of transition; I'm using it just for that helper... easy to remove later.
-* FORM: what a mess, there a tons of classes that can be bypass. rewrite everything is a quite big job. BEMO is ready to serve ```simple form``` classes so I have to move all swooshes in different places to respect BEMO's settings (that are much much easier to understand and to read. I removed hundreds of css lines). Now the problem will be the js... I'll see.
+* FORM: what a mess, there are tons of classes that can be bypassed. To rewrite everything is quite a big job. BEMO is ready to serve ```simple form``` classes. I have to move all those validation swooshes in different places to respect BEMO's default, that is much much easier to read and understand. I removed hundreds of css lines. Now, the problem will be the js... I'll see.
 
