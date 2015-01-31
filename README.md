@@ -1,6 +1,6 @@
 # How to build a BEMO theme?
 
-A step-by-step learning guide
+I'm just leraning! Here some notes on my progress, this is not an how-to
 
 # Goal
 
@@ -33,16 +33,13 @@ BEMO is growing up. I don't want to split the project. A theme should permit to 
 
 I'm going to write down my progress. Good or bad, it doesn't matter!
 
-## colors
-
-MD usa una mappatura prticolare per definire i colori. Crea anche delle classi per definire color e bg-color. I colori hanno fino a 5 versioni di gradiente in chiaro e scuro. Sarebbe interessante riportarli tutti ma al momento prendo  solo i colori base.
-
+* colors: MD usa una mappatura prticolare per definire i colori. Crea anche delle classi per definire color e bg-color. I colori hanno fino a 5 versioni di gradiente in chiaro e scuro. Sarebbe interessante riportarli tutti ma al momento prendo  solo i colori base.
 * reported some horrible mixins to manage box shadows.
 * no bourbon/compass, ho fatto animazioni con un mixin temporaneo
 * creato blocco badge
 * creato blocco bottoni normali. Finora usare l'override non mi ha creato problemi
 * ho dovuto creare un file base per il tema
 * ho dovuto fare degli import in applicatino sass in punti differenti. questo vorrei cambiarlo ma dubito si possa.
-* 
+
 
 
