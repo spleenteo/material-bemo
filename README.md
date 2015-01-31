@@ -40,6 +40,7 @@ I'm going to write down my progress. Good or bad, it doesn't matter!
 * creato blocco bottoni normali. Finora usare l'override non mi ha creato problemi
 * ho dovuto creare un file base per il tema
 * ho dovuto fare degli import in applicatino sass in punti differenti. questo vorrei cambiarlo ma dubito si possa.
-
+* ho finito i bottoni e finora il alvorod i override non ha dato alcun problema.
+* 
 
 
