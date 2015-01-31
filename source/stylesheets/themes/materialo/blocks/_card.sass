@@ -1,0 +1,57 @@
+.card
+  position: relative
+  overflow: hidden
+  box-sizing: border-box
+  border-radius: 2px
+  @extend .z-depth-1
+  +set-color($blue-gray-color, $white-color, false)
+
+  a
+    color: $orange-color
+    margin-right: 20px
+    +animate(.3s)
+    text-transform: uppercase
+    text-decoration: none
+    &:hover
+      color: lighten($orange-color, 20%)
+
+.card__content
+  padding: 20px
+  border-radius: 0 0 2px 2px
+  box-sizing: border-box
+  p
+    margin: 0
+    color: inherit
+
+
+.card__action
+  border-top: 1px solid rgba(160,160,160,.2)
+  padding: 20px
+
+
+.card__title
+  color: #fff
+  +font-size(24px)
+  font-weight: 300
+  line-height: 48px
+
+.card--image
+  @extend .card
+  +set-color($white-color, $black-color, false)
+
+  .card__image
+    border-radius: 2px 2px 0 0
+    position: relative
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    width: 100%
+
+  .card__title
+    position: absolute
+    bottom: 0
+    left: 0
+    padding: 20px
+    text-shadow: 2px 2px $black-color
+    line-height: 25px
