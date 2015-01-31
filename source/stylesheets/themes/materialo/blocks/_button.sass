@@ -90,6 +90,37 @@
   color: $base-body-color
   cursor: pointer
 
+.button--floating
+  display: inline-block
+  color: $white-color
+  position: relative
+  z-index: 1
+  width: 37px
+  height: 37px
+  line-height: 37px
+  padding: 0
+  background-color: $teal-color
+  border-radius: 50%
+  @extend .z-depth-1
+  +animate(.3s)
+  cursor: pointer
+  >div
+    width: inherit
+    display: inline-block
+    text-align: center
+    color: $white-color
+    font-size: 1.6rem
+    line-height: 37px
+
+  &:hover
+    @extend .z-depth-1-half
+
+  &.button--large
+    width: 37px * 1.5
+    height: 37px * 1.5
+    >div
+      line-height: 37px * 1.5
+
 
 
 
