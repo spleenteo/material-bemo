@@ -1,0 +1,68 @@
+.form
+  color: $light-body-color
+
+.form__field
+  position: relative
+  margin-top: 1rem
+
+  label
+    +font-size(11px)
+    color: $light-body-color
+    position: absolute
+    top: 0.8rem
+    left: $ui-gap / 2
+    font-size: 1rem
+    cursor: text
+    +transition(.2s ease-out)
+
+  #{$all-text-inputs}, textarea
+    background-color: transparent
+    border: none
+    border-bottom: 1px solid $light-body-color
+    outline: none
+    height: 3rem
+    width: 100%
+    font-size: 1rem
+    margin: 0 0 15px 0
+    padding: 0
+    box-shadow: none
+    box-sizing: content-box
+    +transition(.3s)
+
+    &:focus
+      border-bottom: 1px solid $input-border-color
+      + label
+        @extend .form__label__active
+
+.form__field--invalid
+  @extend .form__field
+  #{$all-text-inputs}, textarea
+    border-bottom: 1px solid $input-error-color
+    box-shadow: 0 1px 0 0 $input-error-color
+  label
+    @extend .form__label__active
+    color: $input-error-color !important
+
+
+
+.form__field--valid
+  @extend .form__field
+  #{$all-text-inputs}, textarea
+    border-bottom: 1px solid $input-success-color
+    box-shadow: 0 1px 0 0 $input-success-color
+  label
+    @extend .form__label__active
+
+.form__label__active
+  color: $input-border-color
+  +font-size(13px)
+  +transform(translateY(-130%))
+  left: 0
+
+
+.form--naked
+  @extend .form
+  fieldset
+    border: none
+    legend
+      display: none
