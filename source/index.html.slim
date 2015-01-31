@@ -10,35 +10,6 @@ title: Welcome to Middleman
   .badge--new 4
 
 .wrap
-  h2.gamma Buttons
-
-  .button button
-  .button--notice notice
-  .button--alert alert
-  .button--large large
-  .button--alert.button--large large alert
-  .button
-    ' with icon
-    .icon--mail
-  .button
-    .icon--arrow-left
-  .button
-    .icon--arrow-right
-
-  .button--small small
-  .button--flat flat
-  .button.button--disabled disabled
-
-  .button--expand expanded
-
-  h2.gamma Floating button
-
-  .button--floating
-    .icon--hamburger
-
-  .button--floating.button--large
-    .icon--hamburger
-
-  .button--floating.button--large.button--disabled
-    .icon--hamburger
-
+  = partial "buttons"
+.wrap
+  = partial "cards"
