@@ -1,9 +1,0 @@
-{
-  "name": "XXX",
-  "version": "0.0.1",
-  "devDependencies": {
-    "grunt": "*",
-    "grunt-bemo": "*"
-  }
-}
-
