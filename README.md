@@ -38,7 +38,7 @@ BEMO is growing up. I don't want to split the project. A theme should permit upd
 
 I'm going to write down my progress. Good or bad, it doesn't matter!
 
-* colors: MD usa una mappatura prticolare per definire i colori. Crea anche delle classi per definire color e bg-color. I colori hanno fino a 5 versioni di gradiente in chiaro e scuro. Sarebbe interessante riportarli tutti ma al momento prendo  solo i colori base.
+* colors: MD usa una map list prticolare per definire i colori. una palette mastodontica. Crea anche delle classi per definire gli attributi color e bg-color. I colori hanno fino a 5 versioni di gradiente in chiaro e scuro. Sarebbe interessante riportarli tutti ma al momento prendo  solo i colori base.
 * reported some horrible mixins to manage box shadows.
 * no bourbon/compass, ho fatto animazioni con un mixin temporaneo
 * creato blocco badge
@@ -46,6 +46,9 @@ I'm going to write down my progress. Good or bad, it doesn't matter!
 * ho dovuto creare un file base per il tema
 * ho dovuto fare degli import in applicatino sass in punti differenti. questo vorrei cambiarlo ma dubito si possa.
 * ho finito i bottoni e finora il alvorod i override non ha dato alcun problema.
-* ho fatto funzionare un js delle card. Tutte le calssi e il sistema di selector va rivisto. ho usato la convezione io .js-nome per usare 
+* ho fatto funzionare un js delle card. Tutte le calssi e il sistema di selector va rivisto. ho usato la convezione  ```.js-class-name``` da far masticare a jQuery. Sarebbe carino passare all'uso dei data attributes.
+* Collections done without problems. I'm avoiding as much as I can MDcss variables, trying to use the BEMO's standard names.
+* Footer component is done: they says they use flexbox for positioning but I can't find anything about that... wired.
+* I'm thinking that maybe, the usage of classes to set elements color and float position is not so bad... OMG! It might be the fever...
 
 
