@@ -8,7 +8,7 @@
 
   a
     color: $orange-color
-    margin-right: 20px
+    margin-right: $card-padding
     +animate(.3s)
     text-transform: uppercase
     text-decoration: none
@@ -16,7 +16,7 @@
       color: lighten($orange-color, 20%)
 
 .card__content
-  padding: 20px
+  padding: $card-padding
   border-radius: 0 0 2px 2px
   box-sizing: border-box
   p
@@ -26,11 +26,11 @@
 
 .card__action
   border-top: 1px solid rgba(160,160,160,.2)
-  padding: 20px
+  padding: $card-padding
 
 
 .card__title
-  color: #fff
+  color: $white-color
   +font-size(24px)
   font-weight: 300
   line-height: 48px
@@ -52,7 +52,7 @@
     position: absolute
     bottom: 0
     left: 0
-    padding: 20px
+    padding: $card-padding
     text-shadow: 2px 2px $black-color
     line-height: 25px
 
@@ -71,7 +71,7 @@
       float: right
 
   .card__reveal
-    padding: 20px
+    padding: $card-padding
     position: absolute
     +set-color($white-color, $black-color, false)
     overflow-y: auto
