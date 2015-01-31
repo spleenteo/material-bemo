@@ -1,0 +1,82 @@
+.button
+  display: inline-block
+  height: 36px
+  line-height: 36px
+  margin-bottom: 15px
+  padding: 0 2rem
+  border-radius: 2px
+  text-transform: uppercase
+  border: none
+  outline: 0
+  +font-size(14px)
+  -webkit-tap-highlight-color: transparent
+
+  text-decoration:none
+  color: $white-color
+  background-color: $teal-color
+  text-align: center
+  letter-spacing: .5px
+  @extend .z-depth-1
+  margin-right: 5px
+  +animate(.2s)
+  cursor: pointer
+  border-color: none
+
+  &:hover
+    background-color: lighten($teal-color, 5%)
+    @extend .z-depth-1-half
+
+
+
+  .no-touch &:hover
+    box-shadow: 0 3px 5px rgba(black, 0.2)
+    text-shadow: 0 3px 3px rgba(black, 0.2)
+
+  .no-touch &:active
+    box-shadow: 0 1px 3px rgba(black, 0.2)
+    text-shadow: 0 1px 1px rgba(black, 0.2)
+
+  i:first-child
+    margin-right: 0.5em
+
+  i:last-child
+    margin-left: 0.5em
+
+  i:first-child:last-child
+    margin-left: 0
+    margin-right: 0
+
+.button--small
+  @extend .button
+  font-size: 0.9em
+
+.button--large
+  @extend .button
+  height: 56px
+  line-height: 56px
+
+.button--huge
+  @extend .button
+  font-size: 1.3em
+
+.button--expand
+  @extend .button
+  text-align: center
+  display: block
+  width: 100%
+
+.button--primary,
+.button--notice,
+.button--alert
+  @extend .button
+
+.button--notice
+  background-color: $orange-color
+  &:hover
+    background-color: lighten($orange-color, 5%)
+
+.button--alert
+  background-color: $red-color
+  &:hover
+    background-color: lighten($red-color, 5%)
+

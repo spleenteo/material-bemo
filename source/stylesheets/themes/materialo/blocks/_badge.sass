@@ -1,0 +1,22 @@
+.badge
+  display: inline
+  min-width: 3rem
+  padding: 0 6px
+  text-align: center
+  font-size: 1rem
+  line-height: inherit
+  color: lighten($grey-color, 10%) // it was darken-1
+  float: right
+  box-sizing: border-box
+
+.badge--new
+  @extend .badge
+  font-weight: 300
+  font-size: 0.8rem
+  color: #fff
+  background-color: $badge-color
+  border-radius: 2px
+
+  &:after
+    content: " new"
+
