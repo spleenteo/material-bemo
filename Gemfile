@@ -18,4 +18,4 @@ gem "sass-globbing"
 gem "slim"
 gem 'bourbon'
 gem 'rails-assets-normalize-scss'
-
+gem 'middleman-gh-pages'
