@@ -44,7 +44,7 @@
 
 .button--disabled
   cursor: arrow
-  color: $gray-color
+  color: $gray-color !important
   background-color: lighten($gray-color, 25%) !important
   box-shadow: none
   +remove-hover
@@ -76,9 +76,8 @@
 .button--alert
   +set-color($red-color)
 
-.button--flat
+.button--flat, .button--flat:hover
   @extend .button
-  +remove-hover
   cursor: pointer
   box-shadow: none
   background-color: transparent
