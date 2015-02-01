@@ -31,8 +31,11 @@
 
     &:focus
       border-bottom: 1px solid $input-border-color
-      + label
+      ~ label
         @extend .form__label__active
+
+      i &
+        color: $input-success-color
 
 .form__field--invalid
   @extend .form__field
@@ -44,7 +47,6 @@
     color: $input-error-color !important
 
 
-
 .form__field--valid
   @extend .form__field
   #{$all-text-inputs}, textarea
@@ -52,6 +54,26 @@
     box-shadow: 0 1px 0 0 $input-success-color
   label
     @extend .form__label__active
+  i
+    color: $input-success-color
+
+
+.form__field--with-icon
+  i
+    position: absolute
+    top: 0
+    width: 3rem
+    font-size: 2rem
+    +transition(color .2s)
+
+  #{$all-text-inputs}, textarea
+    margin-left: 3rem
+    width: 92%
+    width: calc(100% - 3rem)
+
+  label
+    margin-left: 3rem
+
 
 .form__label__active
   color: $input-border-color

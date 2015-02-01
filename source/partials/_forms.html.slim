@@ -5,11 +5,11 @@
   .form
     fieldset
       legend A simple form
-      .grid__item.width-6-12
+      .grid__item.desk-6-12
         .form__field--valid
           input id="first-name" type="text" placeholder="John"
           label for="first-name" First name
-      .grid__item.width-6-12
+      .grid__item.desk-6-12
         .form__field
           input id="last-name" type="text"
           label.is-active for="last-name" Last name
@@ -19,4 +19,25 @@
           label for="username" Username
       .grid__item.width-12-12
         .form__actions
+          button.button--flat Reset
+          button.button Send
+
+.grid--narrow.space--top-3
+  .form--naked
+    h3.beta A naked form with icons
+    fieldset
+      legend A naked form
+      .grid__item.desk-6-12
+        .form__field.form__field--with-icon
+          i.icon--account-circle
+          input id="user" type="text"
+          label for="user" Your nick name
+      .grid__item.desk-6-12
+        .form__field--valid.form__field--with-icon
+          i.icon--phone
+          input id="tel" type="tel"
+          label.is-active for="tel" Telephone number
+      .grid__item.width-12-12
+        .form__actions
+          button.button--flat Reset
           button.button Send
