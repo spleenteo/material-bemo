@@ -34,8 +34,19 @@
       ~ label
         @extend .form__label__active
 
-      i &
+      ~ i
         color: $input-success-color
+
+
+  // Default textarea
+  textarea
+    width: 100%
+    height: 3rem
+    background-color: transparent
+    overflow-y: hidden // prevents scroll bar flash
+    padding: 1.6rem 0 // prevents text jump on Enter keypress
+    resize: none
+
 
 .form__field--invalid
   @extend .form__field
