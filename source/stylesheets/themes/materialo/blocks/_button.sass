@@ -17,12 +17,12 @@
   letter-spacing: .5px
   @extend .z-depth-1
   margin-right: 5px
-  +set-color($teal-color)
+  +set-color($button-color)
   border-color: none
   -webkit-tap-highlight-color: transparent
 
   &:hover
-    background-color: lighten($teal-color, 5%)
+    background-color: lighten($button-color, 5%)
     @extend .z-depth-1-half
 
   >div
@@ -94,7 +94,7 @@
   @extend .z-depth-1
   +animate(.3s)
   cursor: pointer
-  +set-color($teal-color)
+  +set-color($button-color)
   >div
     width: inherit
     display: inline-block
