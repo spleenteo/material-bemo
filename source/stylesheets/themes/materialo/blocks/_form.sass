@@ -38,6 +38,60 @@
         color: $input-success-color
 
 
+  .select-wrapper span.select-dropdown
+    position: relative
+    cursor: pointer
+    color: #444
+    background-color: transparent
+    border: none
+    border-bottom: 1px solid $input-border-color
+    outline: none
+    height: 3rem
+    line-height: 3rem
+    width: 100%
+    font-size: 1rem
+    margin: 0 0 15px 0
+    padding: 0
+    display: block
+    position: relative
+
+    &:after
+      position: absolute
+      right: 0
+      font-size: 23px
+      // @extend [class^="mdi-"]
+      // @extend .mdi-navigation-arrow-drop-down:before
+
+  select
+    display: none
+
+  select.browser-default
+    display: block
+
+  // Disabled styles
+  select:disabled
+    color: rgba(0,0,0,.3)
+
+  .select-wrapper span.select-dropdown.disabled
+    color: rgba(0,0,0,.3)
+
+  .select-dropdown li.disabled
+    color: rgba(0,0,0,.3)
+    &:hover
+      background-color: transparent
+
+
+
+  select
+    background-color: #fffafa
+    width: 100%
+    padding: 5px
+    border: 1px solid #f2f2f2
+    border-radius: 2px
+    height: 3rem
+
+
+
   // Default textarea
   textarea
     width: 100%
